@@ -1,14 +1,14 @@
-import photo1 from "../assets/collage/photo1.png";
-import photo2 from "../assets/collage/photo2.png";
-import photo3 from "../assets/collage/photo3.png";
-import photo4 from "../assets/collage/photo4.png";
-import photo5 from "../assets/collage/photo5.png";
-import photo6 from "../assets/collage/photo6.png";
-import photo7 from "../assets/collage/photo7.png";
-import photo8 from "../assets/collage/photo8.png";
-import photo9 from "../assets/collage/photo9.png";
-import photo10 from "../assets/collage/photo10.png";
-import photo11 from "../assets/collage/photo11.png";
+import photo1 from "../assets/collage/photo1.jpeg";
+import photo2 from "../assets/collage/photo2.jpeg";
+import photo3 from "../assets/collage/photo3.jpeg";
+import photo4 from "../assets/collage/photo4.JPG";
+import photo5 from "../assets/collage/photo5.jpeg";
+import photo6 from "../assets/collage/photo6.jpeg";
+import photo7 from "../assets/collage/photo7.jpeg";
+import photo8 from "../assets/collage/photo8.jpeg";
+import photo9 from "../assets/collage/photo9.jpeg";
+import photo10 from "../assets/collage/photo10.jpeg";
+import photo11 from "../assets/collage/photo11.jpeg";
 
 export const photos = [
     { src: photo1, alt: "Photo 1" },
