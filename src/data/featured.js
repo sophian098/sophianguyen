@@ -1,6 +1,6 @@
-import tcdsb from "../assets/images/tcdsb.png";
-import medal from "../assets/images/medal.png";
-import myblueprint from "../assets/images/myblueprint.png";
+import tcdsb from "../assets/images/tcdsb.jpeg";
+import medal from "../assets/images/medal.jpeg";
+import myblueprint from "../assets/images/myblueprint.jpeg";
 
 export const featured = [
     {

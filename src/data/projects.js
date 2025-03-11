@@ -1,9 +1,9 @@
-import watamoment from "../assets/images/watamoment.png";
-import garbage from "../assets/images/garbage.png";
-import cyberchef from "../assets/images/cyberchef.png";
-import hshub from "../assets/images/hshub.png";
-import hsr from "../assets/images/hsr.png";
-import zombae from "../assets/images/zombae.png";
+import watamoment from "../assets/images/watamoment.jpeg";
+import garbage from "../assets/images/garbage.jpeg";
+import cyberchef from "../assets/images/cyberchef.jpeg";
+import hshub from "../assets/images/hshub.jpeg";
+import hsr from "../assets/images/hsr.jpeg";
+import zombae from "../assets/images/zombae.jpeg";
 
 export const projects = [
     {

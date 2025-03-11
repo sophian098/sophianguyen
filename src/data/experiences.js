@@ -1,6 +1,6 @@
-import clc from "../assets/images/clc.png";
-import cdl from "../assets/images/cdl.png";
-import robotics from "../assets/images/robotics.png";
+import clc from "../assets/images/clc.jpeg";
+import cdl from "../assets/images/cdl.jpeg";
+import robotics from "../assets/images/robotics.jpeg";
 
 export const experiences = [
     {
