@@ -15,7 +15,7 @@ const Photography = () => {
   };
 
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen p-8 pt-32">
       <h1 className="text-3xl font-bold text-center mb-6">Photography</h1>
 
       {/* Responsive Image Grid */}
