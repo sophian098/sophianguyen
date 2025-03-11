@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -17,6 +17,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/highlights' element={<Highlights />} />
           <Route path='/photography' element={<Photography />} /> 
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
       <Footer />
