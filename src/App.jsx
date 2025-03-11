@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <Router>
+    <Router basename="/sophianguyen/">
       <Navbar />  {/* Navbar is shown across all pages */}
       <div className='container mx-auto p-4'>
         <Routes>
@@ -17,6 +17,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/highlights' element={<Highlights />} />
           <Route path='/photography' element={<Photography />} /> 
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
       <Footer />
