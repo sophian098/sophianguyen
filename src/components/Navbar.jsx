@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import logo from "../assets/icons/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className="max-w-[1240px] mx-auto flex justify-between items-center h-full">
         {/* Logo */}
         <Link to='/'>
-          <img src="/icons/logo.png" alt="logo" className="h-16 w-auto" />
+          <img src={logo} alt="logo" className="h-16 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}

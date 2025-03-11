@@ -1,19 +1,23 @@
+import clc from "../assets/images/clc.png";
+import cdl from "../assets/images/cdl.png";
+import robotics from "../assets/images/robotics.png";
+
 export const experiences = [
     {
         title: "Canada Learning Code Teen Ambassador",
-        image: "/images/clc.png",
+        image: clc,
         subtitle: "Developed projects for quarterly challenges and conducted coding workshops",
         link: "https://www.canadalearningcode.ca/teen-ambassador-program/"
     },
     {
         title: "Creative Destruction Lab Apprentice",
-        image: "/images/cdl.png",
+        image: cdl,
         subtitle: "Shadowed mentors guiding start-ups and participated in emerging technology modules",
         link: "https://creativedestructionlab.com/program/apprentice/"
     },
     {
         title: "Robotics Club President ",
-        image: "/images/robotics.png",
+        image: robotics,
         subtitle: "Led meetings and taught members how to build and program robots",
         link: "https://www.tcdsb.org/o/stjosephcollege"
     }
