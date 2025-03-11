@@ -1,0 +1,53 @@
+import React, { useState } from "react";
+import { photos } from "../data/photos";
+
+const Photography = () => {
+  const [selectedPhoto, setSelectedPhoto] = useState(null);
+
+  // Function to open the full-screen modal
+  const openModal = (photo) => {
+    setSelectedPhoto(photo);
+  };
+
+  // Function to close the modal
+  const closeModal = () => {
+    setSelectedPhoto(null);
+  };
+
+  return (
+    <div className="min-h-screen p-8">
+      <h1 className="text-3xl font-bold text-center mb-6">Photography</h1>
+
+      {/* Responsive Image Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {photos.map((photo, index) => (
+          <div key={index} className="overflow-hidden rounded-lg shadow-lg cursor-pointer">
+            <img 
+              src={photo.src} 
+              alt={photo.alt} 
+              //loading="lazy"
+              className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105 hover:brightness-75"
+              onClick={() => openModal(photo.src)} 
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Full-Screen Modal */}
+      {selectedPhoto && (
+        <div 
+          className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-80 z-50"
+          onClick={closeModal} 
+        >
+          <img 
+            src={selectedPhoto} 
+            alt="Full-size"
+            className="max-w-[90%] max-h-[90%] rounded-lg shadow-lg"
+          />
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Photography;
