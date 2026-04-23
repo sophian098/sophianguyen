@@ -1,3 +1,5 @@
+import HH from "../assets/images/HH.png";
+import cancer_screening from "../assets/images/cancer_screening.png";
 import watamoment from "../assets/images/watamoment.jpeg";
 import garbage from "../assets/images/garbage.jpeg";
 import cyberchef from "../assets/images/cyberchef.jpeg";
@@ -7,9 +9,23 @@ import zombae from "../assets/images/zombae.jpeg";
 
 export const projects = [
     {
+        title: "Hodgkin-Huxley Nerve Action Potential Model",
+        image: HH,
+        subtitle: "Simulated neuron membrane dynamics using the Hodgkin-Huxley model",
+        techStack: "JavaScript, HTML, CSS",
+        link: "https://github.com/sophian098/Wat-A-Moment"
+    },
+    {
+        title: "Cancer Screening Website",
+        image: cancer_screening,
+        subtitle: "Built a guideline lookup tool for Canadian and US cancer screening recommendations",
+        techStack: "JavaScript, HTML, CSS",
+        link: "https://sophian098.github.io/cancer_screening/"
+    },
+    {
         title: "Wat-A-Moment",
         image: watamoment,
-        subtitle: "Digital photobooth for Waterloo students (SE101 project)",
+        subtitle: "Created a digital photobooth for capturing and sharing event memories",
         techStack: "HTML/CSS, Flask, Node.js, MySQL, OpenCV, Google Drive API",
         link: "https://github.com/sophian098/Wat-A-Moment"
     },
