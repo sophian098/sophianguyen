@@ -1,5 +1,8 @@
 import HH from "../assets/images/HH.png";
 import cancer_screening from "../assets/images/cancer_screening.png";
+import learno from "../assets/images/learno.jpg";
+import washroom_finder from "../assets/images/washroom_finder.png";
+import HTN25 from "../assets/images/HTN25.png";
 import watamoment from "../assets/images/watamoment.jpeg";
 import garbage from "../assets/images/garbage.jpeg";
 import cyberchef from "../assets/images/cyberchef.jpeg";
@@ -13,7 +16,7 @@ export const projects = [
         image: HH,
         subtitle: "Simulated neuron membrane dynamics using the Hodgkin-Huxley model",
         techStack: "JavaScript, HTML, CSS",
-        link: "https://github.com/sophian098/Wat-A-Moment"
+        link: "https://sophian098.github.io/hodgkin_huxley/"
     },
     {
         title: "Cancer Screening Website",
@@ -21,6 +24,27 @@ export const projects = [
         subtitle: "Built a guideline lookup tool for Canadian and US cancer screening recommendations",
         techStack: "JavaScript, HTML, CSS",
         link: "https://sophian098.github.io/cancer_screening/"
+    },
+        {
+        title: "Learno",
+        image: learno,
+        subtitle: "Built a real-time classroom support tool that helps neurodivergent teens regulate emotions",
+        techStack: "MongoDB, Gemini API, ElevenLabs, face-api.js, React, TypeScript, Node.js",
+        link: "https://devpost.com/software/whisper-lite"
+    },
+    {
+        title: "Washroom Finder",
+        image: washroom_finder,
+        subtitle: "Created a campus tool for finding, rating, and reviewing nearby washrooms",
+        techStack: "Leaflet API, Supabase, JavaScript, HTML, CSS",
+        link: "https://devpost.com/software/uoft-washroom-finder"
+    },
+    {
+        title: "AI Communication Assistant",
+        image: HTN25,
+        subtitle: "Built an AI communication assistant for drafting better casual and professional messages",
+        techStack: "Beeper API, Cohere API, Vapi API, TypeScript, Next.js, React, Tailwind CSS",
+        link: "https://devpost.com/software/wingman-ai-mvegrk"
     },
     {
         title: "Wat-A-Moment",
